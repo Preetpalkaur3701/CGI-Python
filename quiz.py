@@ -8,34 +8,34 @@ form = cgi.FieldStorage()
 score = 0
 # Get data from fields
 q1 = str(form.getvalue('q1'))
-if (q1 == "a"):
+if (q1 == "b"):
     score += 1
 q2 = str(form.getvalue('q2'))
-if (q2 == "b"):
+if (q2 == "a"):
     score += 1
 q3 = str(form.getvalue('q3'))
-if (q3 == "a"):
+if (q3 == "c"):
     score += 1
 q4 = str(form.getvalue('q4'))
-if (q4 == "b"):
+if (q4 == "d"):
     score += 1
 q5 = str(form.getvalue('q5'))
-if (q5 == "a"):
+if (q5 == "c"):
     score += 1
 q6 = str(form.getvalue('q6'))
-if (q6 == "a"):
+if (q6 == "b"):
     score += 1
 q7 = str(form.getvalue('q7'))
 if (q7 == "b"):
     score += 1 
 q8 = str(form.getvalue('q8'))
-if (q8 == "b"):
+if (q8 == "a"):
     score += 1
 q9 = str(form.getvalue('q9'))
 if (q9 == "c"):
     score += 1
 q10 = str(form.getvalue('q10'))
-if (q10 == "b"):
+if (q10 == "d"):
     score += 1
 
 print "Content-type:text/html\r\n\r\n"

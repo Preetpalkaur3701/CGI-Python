@@ -1,103 +1,148 @@
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
 <head>
 <title>
-What Preetpal likes the most?
+Cricket Quiz
 </title>
 <style>
-.ha {text-align: center;}
-body {
-	background-image: url("images/Tropical.jpg") ;
-    background-repeat: no-repeat, repeat;
-    background-size: 2000px 5000px;
-    background-color: #cccccc;
-}
+	.button {
+	  display: inline-block;
+	  padding: 15px 25px;
+	  font-size: 24px;
+	  cursor: pointer;
+	  text-align: center;
+	  text-decoration: none;
+	  outline: none;
+	  color: brown;
+	  background-color:wheat;
+	  border: none;
+	  border-radius: 15px;
+	  box-shadow: 0 9px blanchedalmond;
+	}
 
-    
-}
-h1   {color: white;}
-p    {color: white;}
-h1 {
-    color: white;
-    font-family: Courier,monospace;
-    font-size: 300%;
-}
-h2{
-    color: white;
-    font-family: Courier,monospace;
-    font-size: 200%;
-}
-p  {
-    color: white;
-    font-family: courier;
-    font-size: 160%;
-}
-#search {
-    width: 20em;  height: 2em;
-}
-input[type=submit] {
-    width: 4cm;  height: 1.5cm;
-}
+	.button:hover {background-color: sandybrown}
+
+	.button:active {
+	  background-color: sandybrown;
+	  box-shadow: 0 5px blanchedalmond;
+	  transform: translateY(4px);
+	}
+	div {border: 6px solid wheat;
+	    padding-top: 10px;
+	    padding-right: 90px;
+	    padding-bottom: 10px;
+	    padding-left: 10px;
+	}
+	    
+	}
+	body {
+		background : sandybrown; 
+	} 
+	.one{ width:70%; margin-left: 10%}
+	.ha {text-align: center;}
+	div {
+		background-image: url("images/p.jpg");
+	    background-repeat: no-repeat;
+	    background-size: 9000px 4000px;
+	    background-color: #cccccc;
+	}
+
+	    
+	}
+	h1   {color: white;}
+	p    {color: sandybrown;}
+	h1 {
+	    color: white;
+	    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	    font-size: 200%;
+	}
+	h2{
+	    color: sandybrown;
+	    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif	;
+	    font-size: 100%;
+	}
+	p  {
+	    color: sandybrown;
+	    font-family: courier;
+	    font-size: 160%;
+	}
+	#search {
+	    width: 20em;  height: 2em;
+	}
+	input[type=submit] {
+	    width: 4cm;  height: 1.5cm;
+	}
 </style>
-<body background="images/Tropical.jpg">
-<h1 class="ha">Welcome</h1>
-<form action="/cgi/quiz.py" method="get">
-<h1><STRONG>Q1:</STRONG></h1>
-<h1>Which fastfood preetpal likes the most ?</h1>
-<h2><INPUT TYPE="radio" NAME="q1" VALUE="a">Burger</h2> 
-<h2><INPUT TYPE="radio" NAME="q1" VALUE="b">Pizza </h2>
-</br>
-<h1><STRONG>Q2:</STRONG></h1>
-<h1>Favrouite colour of Preetpal ?</h1>
-<h2><INPUT TYPE="radio" NAME="q2" VALUE="a">Black </h2>
-<h2><INPUT TYPE="radio" NAME="q2" VALUE="b">Blue</h2>
-<h2><INPUT TYPE="radio" NAME="q2" VALUE="c">Pink</h2>
-</br>
-<h1><STRONG>Q3:</STRONG></h1>
-<h1>On which day Preetpal celebrates her Birthday ?</h1>
-<h2><INPUT TYPE="radio" NAME="q3" VALUE="a">19 May</h2>
-<h2><INPUT TYPE="radio" NAME="q3" VALUE="b">31 July</h2>
+<body background="images/p.jpg"">
+	<div class="one">
 
-</br>
-<h1><STRONG>Q4:</STRONG></h1>
-<h1>Which Dress she likes the most?</h1>
-<h2><INPUT TYPE="radio" NAME="q4" VALUE="a">Western</h2>
-<h2><INPUT TYPE="radio" NAME="q4" VALUE="b">Punjabi</h2>
-</br>
-<h1><STRONG>Q:5</STRONG></h1>
-<h1>Which type of makeup she likes?</h1>
-<h2><INPUT TYPE="radio" NAME="q5" VALUE="a">Light </h2>
-<h2><INPUT TYPE="radio" NAME="q5" VALUE="b">Dark</h2>
-</br>
-<h1><STRONG>Q6:</STRONG></h1>
-<h1>Does she like to travel?</h1>
-<h2><INPUT TYPE="radio" NAME="q6" VALUE="a">yes</h2>
-<h2><INPUT TYPE="radio" NAME="q6" VALUE="b">no</h2>
-</br>
-<h1><STRONG>Q7:</STRONG></h1>
-<h1>Preetpal favrouite choclate?</h1>
-<h2><INPUT TYPE="radio" NAME="q7" VALUE="a">Dairy Milk</h2>
-<h2><INPUT TYPE="radio" NAME="q7" VALUE="b">Kit Kat</h2>
-<h2><INPUT TYPE="radio" NAME="q7" VALUE="c">Munch</h2>
-</br>
-<h1><STRONG>Q8:</STRONG></h1>
-<h1>What type of songs Preetpal likes the most?</h1>
-<h2><INPUT TYPE="radio" NAME="q8" VALUE="a">Funny</h2>
-<h2><INPUT TYPE="radio" NAME="q8" VALUE="b">Sufi</h2>
-<h2><INPUT TYPE="radio" NAME="q8" VALUE="c">Emotional</h2>
-</br>
-<h1><STRONG>Q9:</STRONG></h1>
-<h1>Which type of movies she likes?</h1>
-<h2><INPUT TYPE="radio" NAME="q9" VALUE="a">Funny</h2>
-<h2><INPUT TYPE="radio" NAME="q9" VALUE="b">Emotional</h2>
-<h2><INPUT TYPE="radio" NAME="q9" VALUE="c">Suspense</h2>
-</br>
-<h1><STRONG>Q10:</STRONG></h1>
-<h1>Does she likes reading books?</h1>
-<h2><INPUT TYPE="radio" NAME="q10" VALUE="a">yes</h2>
-<h2><INPUT TYPE="radio" NAME="q10" VALUE="b">no</h2>
-</br>
-<h1><INPUT TYPE=SUBMIT NAME="SUBMIT" VALUE="Submit"></h1>
+
+
+	<h1 class="ha">Welcome</h1>
+<form action="/cgi/quiz.py" method="get">
+	<h1> Q1: ________led India in more than 150 One Day matches.</h1>
+	<h2><INPUT TYPE="radio" NAME="q1" VALUE="a">Sachin Tendulkar (India) </h2> 
+	<h2><INPUT TYPE="radio" NAME="q1" VALUE="b">Azharuddin</h2>
+	<h2><INPUT TYPE="radio" NAME="q1" VALUE="c">Andrew Symonds (Australia)</h2>
+	<h2><INPUT TYPE="radio" NAME="q1" VALUE="d"> Sanath Jayasuriya (Sri Lanka)</h2>
+	</br>
+	<h1>Q2: Who won the Deodhar Trophy Cricket played in Mumbai on March 9, 2010 ? </h1>
+	<h2><INPUT TYPE="radio" NAME="q2" VALUE="a">North Zone</h2>
+	<h2><INPUT TYPE="radio" NAME="q2" VALUE="b">West Zone </h2>
+	<h2><INPUT TYPE="radio" NAME="q2" VALUE="c">East Zone </h2>
+	<h2><INPUT TYPE="radio" NAME="q2" VALUE="d">South Zone</h2>
+	</br>
+	<h1>Q3: Who holds the record for the highest number of runs in Test Cricket ? </h1>
+	<h2><INPUT TYPE="radio" NAME="q3" VALUE="a">Sunil Gavaskar </h2>
+	<h2><INPUT TYPE="radio" NAME="q3" VALUE="b">Geoffrey Boycott </h2>
+	<h2><INPUT TYPE="radio" NAME="q3" VALUE="c">Sachin Tendulkar </h2>
+	<h2><INPUT TYPE="radio" NAME="q3" VALUE="d">Gary Sobers </h2>
+	</br>
+	<h1>Q4: Which country will host 2015  Cricket World Cup ? </h1>
+	<h2><INPUT TYPE="radio" NAME="q4" VALUE="a">India</h2>
+	<h2><INPUT TYPE="radio" NAME="q4" VALUE="b"> Australia</h2>
+	<h2><INPUT TYPE="radio" NAME="q5" VALUE="b">New Zealand</h2>
+	<h2><INPUT TYPE="radio" NAME="q5" VALUE="b">Both (B) and (C)</h2>
+	</br>
+	<h1>Q5: The cricketer who became the brand Ambassador of Indigo Nation is _____ </h1>
+	<h2><INPUT TYPE="radio" NAME="q5" VALUE="a">Sachin Tendulkar </h2>
+	<h2><INPUT TYPE="radio" NAME="q5" VALUE="b">Sourav Ganguly </h2>
+	<h2><INPUT TYPE="radio" NAME="q5" VALUE="c">Anil Kumble </h2>
+	<h2><INPUT TYPE="radio" NAME="q5" VALUE="d">Ajay Ratra </h2>
+	</br>
+	<h1>Q6: The highest wicket taker in test matches is now ____ </h1>
+	<h2><INPUT TYPE="radio" NAME="q6" VALUE="a">Shane Warne </h2>
+	<h2><INPUT TYPE="radio" NAME="q6" VALUE="b">Muthia Murlitharan</h2>
+	<h2><INPUT TYPE="radio" NAME="q6" VALUE="c">Kapil Dev </h2>
+	<h2><INPUT TYPE="radio" NAME="q6" VALUE="d">Dennis Lillee </h2>
+	</br>
+	<h1>Q7: Which country has won the ICC Twenty-20 World Cup Cricket played in May 2010 ? </h1>
+	<h2><INPUT TYPE="radio" NAME="q7" VALUE="a">Sri Lanka </h2>
+	<h2><INPUT TYPE="radio" NAME="q7" VALUE="b">England </h2>
+	<h2><INPUT TYPE="radio" NAME="q7" VALUE="c">India</h2>
+	<h2><INPUT TYPE="radio" NAME="q7" VALUE="d">Australia</h2>
+	</br>
+	<h1>Q8: The most popular game in the United States of America is____</h1>
+	<h2><INPUT TYPE="radio" NAME="q8" VALUE="a">Baseball</h2>
+	<h2><INPUT TYPE="radio" NAME="q8" VALUE="b">Cricket</h2>
+	<h2><INPUT TYPE="radio" NAME="q8" VALUE="c">Hockey</h2>
+	<h2><INPUT TYPE="radio" NAME="q8" VALUE="d">Lawn Tennis</h2>
+	</br>
+	<h1>Q9: Who is the first cricket player from Kerala to make a test debut? </h1>
+	<h2><INPUT TYPE="radio" NAME="q9" VALUE="a">T. Krishnan </h2>
+	<h2><INPUT TYPE="radio" NAME="q9" VALUE="b">T. S. Shekar </h2>
+	<h2><INPUT TYPE="radio" NAME="q9" VALUE="c">T. Yohannan </h2>
+	<h2><INPUT TYPE="radio" NAME="q9" VALUE="d">R. Somasunder </h2>
+	</br>
+	<h1>Q10: India has been involved in three tied matches against </h1>
+	<h2><INPUT TYPE="radio" NAME="q10" VALUE="a">Zimbabwe</h2>
+	<h2><INPUT TYPE="radio" NAME="q10" VALUE="b">West Indies </h2>
+	<h2><INPUT TYPE="radio" NAME="q9" VALUE="c">Australia</h2>
+	<h2><INPUT TYPE="radio" NAME="q9" VALUE="d">Both (i) and (ii)</h2>
+	</br>
+<button class="button">Submit</button>
+</div>
 </form>
 </body>
 </html>

@@ -18,6 +18,6 @@ Put your script into "cgi_directories":
 This defaults to ['/cgi-bin', '/htbin'] and describes directories to treat as containing CGI scripts.
 
 Open in the browser:
-$ python -mwebbrowser http://localhost:8000/cgi-bin/(The name of your file)
+$ python -mwebbrowser http://localhost:8000/cgi-bin/ (The name of your file)
 
 
